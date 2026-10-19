@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+<title id="title">Minh họa Vịnh Hạ Long</title><desc id="desc">Các đảo đá vôi xanh trên mặt nước, với một thuyền buồm ở tiền cảnh.</desc>
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#c6e6ed"/><stop offset="1" stop-color="#edf7ef"/></linearGradient><linearGradient id="sea" x2="0" y2="1"><stop stop-color="#7cc2c9"/><stop offset="1" stop-color="#216f84"/></linearGradient></defs>
+<rect width="900" height="480" fill="url(#sky)"/><circle cx="735" cy="87" r="40" fill="#fff4d0"/><rect y="235" width="900" height="245" fill="url(#sea)"/>
+<g fill="#779f95"><path d="M10 260l35-111 30-19 17 51 28-12 40 91z"/><path d="M455 265l26-116 29-32 21 15 24 76 30-29 55 86z"/><path d="M710 257l20-72 35-26 22 10 25 88z"/></g>
+<g fill="#275d53"><path d="M68 303l24-65 13-96 38-48 29 13 18 74 21-15 21 83 44 54z"/><path d="M292 311l15-76 24-15 9-104 32-55 26 5 23 53 8 101 36 9 34 82z"/><path d="M584 312l17-91 27-25 8-76 30-27 27 22 12 124 30 73z"/></g>
+<g stroke="#9ecfd0" stroke-width="3" opacity=".6"><path d="M20 339h195m87 0h160m65 25h225M44 415h175m355 17h230M200 375h160"/></g>
+<path d="M442 399h145l-24 24H461z" fill="#5e3e2e"/><path d="M513 285v112" stroke="#5e3e2e" stroke-width="5"/><path d="M504 293l-54 92h54z" fill="#fff0d2"/><path d="M522 308l48 77h-48z" fill="#e9c88f"/>
+<text x="28" y="452" font-family="Arial,sans-serif" font-size="18" fill="#e7f7f5">Vịnh Hạ Long · Tranh minh họa</text>
+</svg>

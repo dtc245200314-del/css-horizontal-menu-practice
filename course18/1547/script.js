@@ -1,0 +1,1 @@
+document.querySelector('form').addEventListener('submit',e=>{e.preventDefault();document.querySelector('[role="status"]').textContent='Đã ghi nhận biểu mẫu minh họa của '+new FormData(e.target).get('name')+'.';});

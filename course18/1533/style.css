@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+}
+
+.left-column {
+    width: 60%;
+    float: left;
+    background-color: lightblue;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-column {
+    width: 38%;
+    float: right;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+/* Xử lý float */
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+*{box-sizing:border-box}body{font-family:Arial,sans-serif;margin:0;line-height:1.6}.container{max-width:1100px;margin:auto}.footer{clear:both}@media(max-width:600px){.left,.right{float:none;width:100%}}
+@media(max-width:600px){.left-column,.right-column{float:none;width:100%}}

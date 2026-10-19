@@ -1,0 +1,1 @@
+document.querySelector('#theme').addEventListener('change',e=>document.documentElement.dataset.theme=e.target.value);

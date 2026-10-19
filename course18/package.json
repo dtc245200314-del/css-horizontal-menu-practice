@@ -1,0 +1,11 @@
+{
+  "name": "codegym-html-css-practices",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:sass": "sass 1556/scss/main.scss 1556/css/style.css --no-source-map && sass 1557/scss/main.scss 1557/css/style.css --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.93.0"
+  }
+}
