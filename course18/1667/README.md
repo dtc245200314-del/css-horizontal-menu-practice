@@ -8,3 +8,7 @@ Dựa trên Pra.zip được CodeGym cung cấp. Giữ cấu trúc, font và hì
 - Chọn Forest Green để kiểm tra một bộ màu đơn tông khác.
 
 Nguồn: https://github.com/codegym-vn/democodegym/blob/9cfdb957dc5976cce341eaa266bd2cb3b5aa8a0e/web/Pra.zip
+
+## Kết quả trình duyệt
+
+![Kết quả bài 1667](../evidence/1667.png)

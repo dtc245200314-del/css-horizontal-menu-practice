@@ -10,3 +10,7 @@ npx sass 1556/scss/main.scss 1556/css/style.css --no-source-map
 ```
 
 Dùng @use thay @import cũ, giữ các giá trị CSS yêu cầu. original.css lưu CSS ban đầu để đối chiếu. Thay biến primary-color rồi biên dịch lại để thay đổi toàn bộ nút.
+
+## Kết quả trình duyệt
+
+![Kết quả bài 1556](../evidence/1556.png)
