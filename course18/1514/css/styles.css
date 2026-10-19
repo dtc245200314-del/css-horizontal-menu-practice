@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 32px;
+  line-height: 1.6;
+}
+
+.card {
+  background: #196a45;
+  padding: 24px;
+  border-radius: 10px;
+  color: white;
+}
+.card h1 {
+  font-size: 32px;
+}

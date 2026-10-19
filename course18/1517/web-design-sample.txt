@@ -1,0 +1,18 @@
+THIẾT KẾ WEB TỪ NHỮNG ĐIỀU CƠ BẢN
+Bản đọc thử tự biên soạn cho bài tập.
+
+1. CẤU TRÚC HTML
+Dùng doctype HTML5, khai báo UTF-8 và viewport. Chọn header, nav, main, section và footer theo ý nghĩa nội dung. Mỗi trang nên có tiêu đề chính rõ ràng.
+
+2. CSS VÀ BOX MODEL
+Phân biệt content-box với border-box. Khi dùng border-box, width gồm cả padding và border. Margin tạo khoảng cách ngoài phần tử.
+
+3. RESPONSIVE
+Bắt đầu với bố cục một cột. Thêm cột khi màn hình đủ rộng. Ảnh có max-width:100% để không tràn.
+
+CHECKLIST
+[ ] Có nhãn cho trường nhập
+[ ] Focus bàn phím rõ ràng
+[ ] Không tràn ngang trên điện thoại
+[ ] Các liên kết có đích hợp lệ
+[ ] Ảnh có alt mô tả phù hợp

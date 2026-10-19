@@ -1,0 +1,4 @@
+$primary: #196a45;
+@mixin card($bg){background:$bg;padding:24px;border-radius:10px;color:white;}
+body{font-family:Arial,sans-serif;margin:32px;line-height:1.6;}
+.card{@include card($primary);h1{font-size:32px;}}

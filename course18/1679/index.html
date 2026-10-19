@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phim Hoạt Hình — Góc xem phim</title><link rel="stylesheet" href="styles.css"><script src="app.js" defer></script>
+</head>
+<body>
+  <div id="header"><a class="logo" href="#top">Phim<span>HoạtHình</span></a><span class="tagline">Những câu chuyện nhỏ, niềm vui lớn</span></div>
+  <div id="page">
+    <div id="head-link" role="navigation" aria-label="Danh mục phim"><a href="#catalog" data-view="all" aria-current="page">Phim hoạt hình</a><span>|</span><a href="#catalog" data-view="favorites">Phim yêu thích</a><span>|</span><a href="#characters">Nhân vật hoạt hình</a><span>|</span><a href="#feedback">Góp ý</a></div>
+    <div id="top" class="toolbar"><label for="search">Tìm phim</label><input id="search" type="search" placeholder="Nhập tên phim..."><label for="sort">Sắp xếp</label><select id="sort"><option value="latest">Mới cập nhật</option><option value="popular">Xem nhiều nhất</option></select></div>
+    <div id="content">
+      <div id="left-content"><h1 id="catalog">Danh sách phim</h1><div id="video-list"></div><p id="empty" hidden>Không tìm thấy phim phù hợp.</p></div>
+      <div id="right-content" role="main"><div id="player"><video controls preload="metadata" playsinline aria-label="Big Buck Bunny"><source src="garden-story.mp4" type="video/mp4">Trình duyệt không hỗ trợ video HTML5.</video></div><div class="film-heading"><h2 id="film-title">Big Buck Bunny</h2><button id="favorite" type="button" aria-pressed="false">♡ Yêu thích</button></div><p id="film-meta"></p><p id="film-description"></p><p class="credits">Phim “Chú Thỏ và Vườn Rau” tự xây dựng bằng hình vector và giọng đọc tiếng Việt tổng hợp trên máy. Các ví dụ nhúng khác: Phim: Blender Foundation / Blender Studio. <a href="https://peach.blender.org/about/" target="_blank" rel="noopener noreferrer">Nguồn và giấy phép Big Buck Bunny</a>.</p><p id="playback-note" role="status"></p></div>
+    </div>
+    <div id="characters"><h2>Nhân vật hoạt hình</h2><p><strong>Bunny:</strong> Chú thỏ lớn trong Big Buck Bunny. <strong>Spring:</strong> Cô bé chăn cừu cùng chú chó trong hành trình đón mùa xuân.</p></div>
+    <div id="feedback"><h2>Góp ý</h2><form id="feedback-form"><label for="feedback-text">Điều bạn muốn cải thiện</label><textarea id="feedback-text" required maxlength="1000" placeholder="Viết góp ý của bạn..."></textarea><button type="submit">Lưu góp ý</button><p id="feedback-status" role="status"></p></form></div>
+    <div id="footer">© 2026 Phim Hoạt Hình · Bài tập thiết kế bố cục web</div>
+  </div>
+  <template id="youtube-player"><iframe title="Phim hoạt hình" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></template>
+</body>
+</html>

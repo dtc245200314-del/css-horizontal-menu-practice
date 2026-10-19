@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monday Times — HTML5 Layout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><h1>Monday Times</h1><p>Your daily news, clearly presented.</p></header>
+  <nav aria-label="News categories"><ul><li><a href="#news">News</a></li><li><a href="#sports">Sports</a></li><li><a href="#weather">Weather</a></li></ul></nav>
+  <div class="layout">
+    <section id="news" aria-labelledby="section-title">
+      <h2 id="section-title">News Section</h2>
+      <article><h2>News Article</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p><p>Our community library opens a new reading room this Monday. The space welcomes students and readers of all ages.</p></article>
+      <article id="sports"><h2>News Article</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p><p>The local school sports club begins a new season, with activities for both beginners and experienced players.</p></article>
+    </section>
+    <aside aria-label="Additional information"><h2>At a glance</h2><section id="weather"><h3>Weather</h3><p>A bright start to the week.</p></section><h3>Quick links</h3><ul><li><a href="#news">Latest news</a></li><li><a href="#sports">Sports updates</a></li></ul><p>A sidebar contains information related to the main articles.</p></aside>
+  </div>
+  <footer><p>© 2014 Monday Times. All rights reserved.</p></footer>
+</body>
+</html>

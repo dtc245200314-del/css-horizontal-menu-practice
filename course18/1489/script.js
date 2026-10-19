@@ -1,0 +1,1 @@
+document.querySelectorAll('form[data-demo]').forEach(f=>{f.addEventListener('submit',e=>{e.preventDefault();f.querySelector('[role="status"]').textContent='Đã ghi nhận dữ liệu biểu mẫu minh họa.';});f.addEventListener('reset',()=>{f.querySelector('[role="status"]').textContent='';});});

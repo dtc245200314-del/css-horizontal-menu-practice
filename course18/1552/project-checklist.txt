@@ -1,0 +1,6 @@
+CHECKLIST DỰ ÁN WEB
+1. Xác định người dùng.
+2. Sắp xếp nội dung.
+3. Vẽ wireframe.
+4. Xây dựng HTML/CSS.
+5. Kiểm tra responsive và bàn phím.

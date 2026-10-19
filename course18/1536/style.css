@@ -1,0 +1,33 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.left-column {
+    width: 50%;
+    float: left;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.right-column {
+    width: 50%;
+    float: right;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.overflow-box {
+    width: 300px;
+    height: 100px;
+    background-color: lightcoral;
+    padding: 10px;
+    overflow: auto;
+}
+
+body{font:17px/1.6 Arial,sans-serif;margin:0;padding:24px}.container{max-width:1100px}.container::after{content:"";display:block;clear:both}.overflow-box{margin-top:25px;max-width:100%}@media(max-width:600px){.left-column,.right-column{float:none;width:100%}}

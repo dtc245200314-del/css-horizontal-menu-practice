@@ -1,0 +1,1 @@
+body{font:16px/1.5 Arial,sans-serif;margin:0;color:#153446}main{padding:20px}.cards{display:flex;flex-wrap:wrap}.card{width:280px;height:150px;padding:20px;border:5px solid #3498db;margin:20px}.card:nth-child(1){box-sizing:content-box;background:#2ecc71}.card:nth-child(2){box-sizing:border-box;background:#f1c40f}.card:nth-child(3){box-sizing:border-box;background:#e74c3c}

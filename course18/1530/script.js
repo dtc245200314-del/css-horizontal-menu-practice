@@ -1,0 +1,1 @@
+document.querySelector("#hello").addEventListener("click",()=>document.querySelector("[role=status]").textContent="Chào bạn! Bạn vừa tương tác với nút bấm.");
