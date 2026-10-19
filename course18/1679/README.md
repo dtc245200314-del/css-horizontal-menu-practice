@@ -11,4 +11,3 @@ Mở index.html trong trình duyệt, giữ cấu trúc thư mục ảnh/CSS/JS.
 Bố cục có tìm kiếm, sắp xếp, video HTML5, iframe YouTube, yêu thích và responsive. Video mặc định tự xây dựng, có thuyết minh tiếng Việt; các ví dụ iframe khác sử dụng phim Blender. Video/iframe phụ thuộc mạng và chính sách nền tảng.
 
 Video mặc định Chú Thỏ và Vườn Rau là hoạt hình tự xây dựng HD 1280×720, có giọng đọc tiếng Việt tổng hợp Microsoft An. garden-story.mp4 và các nguồn SVG nằm trong repository, phát trực tiếp không phụ thuộc nguồn MP4 bên ngoài. Các mục YouTube là ví dụ nhúng iframe.
-

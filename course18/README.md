@@ -13,4 +13,3 @@ Mã được hoàn thiện với hỗ trợ AI; không chứa lịch sử prompt
 ## Bài tập và phần cuối khóa
 
 Đã bổ sung đủ 36 mục [Bài tập], bài SASS CLI 1514 và case study sách 1517. Mỗi thư mục có mã nguồn, README và ảnh chụp thực tế. Bài Git dùng repository riêng https://github.com/dtc245200314-del/GitProject. Kiểm tra responsive tại 390px; 1515 và 1516 giữ nguyên kích thước và kiểu dáng trước/sau refactor trên desktop và mobile.
-
